@@ -19,4 +19,7 @@
   while (type != null)
 }`
 
-`static void Main()`
+`static void Main()
+{
+  var numbers = new int[] { 1, 2, 3, 4, 5 };
+}`
