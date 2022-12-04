@@ -18,4 +18,3 @@
   }
   while (type != null)
 }`
-
