@@ -18,3 +18,5 @@
   }
   while (type != null)
 }`
+
+`static void Main()`
