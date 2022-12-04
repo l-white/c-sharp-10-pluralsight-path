@@ -8,18 +8,13 @@
 
 `static void Main()
 {
-  var numbers = new int[] { 1, 2, 3, 4, 5, };
+  var numbers = new int[] { 1, 2, 3, 4, 5 };
   var type = numbers.GetType();
   
-  do 
+  do
   {
     (Console.WriteLine(type.FullName);
     type = type.BaseClass;
   }
   while (type != null)
-}`
-
-`static void Main()
-{
-  var numbers = new int[] { 1, 2, 3, 4, 5 };
 }`
